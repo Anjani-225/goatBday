@@ -1,0 +1,68 @@
+.happyBday{
+   color: red; 
+   margin-left: 10px;
+   font-size: 100px;
+   font-weight: bolder;
+   text-shadow: 0 0 3px #FF0000, 0 0 25px #0000FF;
+   display: flex;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+  
+    transition: 0.15s;
+    border: 10px solid white;
+    border-bottom: 75px solid white;
+    width: 240px;
+    height: 280px;
+    justify-content: center;
+    margin: 190px;
+  }
+
+  #c1{
+    background-color: #2af1ff;
+  }
+  #c2{
+      background-color: palegoldenrod;
+  }
+  #c3{
+      background-color: pink;
+  }
+  #c4{
+      background-color: hotpink;
+  }
+  #c5{
+      background-color: #0000FF;
+  }
+  #c6{
+      background-color: rgb(112, 235, 24);
+  }
+  #c7{
+      background-color: coral;
+  }
+  #c8{
+      background-color: powderblue;
+  }
+  #c9{
+      background-color: lightgreen;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 15px 25px 0 rgba(0,0,0,0.2);
+  }
+.column1 {
+    flex: 90%;
+  }
+
+  .column2 {
+    flex: 10%;
+    padding: 5px;
+  }
+
+  .dipshit{
+      display: flex;
+  }
+  .dipshit-col{
+   
+      flex: 50%;
+  }
